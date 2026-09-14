@@ -1,0 +1,35 @@
+{
+  "name": "optemp-field",
+  "version": "0.1.0",
+  "private": true,
+  "description": "OPTemp field arm — offline-first PWA for thermal-state and value-based decision-making data collection at the TAU Botanical Garden.",
+  "scripts": {
+    "dev": "next dev --webpack -H 0.0.0.0",
+    "build": "next build --webpack",
+    "start": "next start",
+    "lint": "eslint",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "dexie": "^4.0.11",
+    "dexie-react-hooks": "^1.1.7",
+    "firebase": "^12.6.0",
+    "firebase-admin": "^13.8.0",
+    "lucide-react": "^0.562.0",
+    "next": "16.2.6",
+    "next-pwa": "^5.6.0",
+    "react": "19.2.4",
+    "react-dom": "19.2.4"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.6",
+    "tailwindcss": "^4",
+    "typescript": "^5"
+  }
+}
